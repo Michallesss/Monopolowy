@@ -5,31 +5,99 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="55*" />
+            <ColumnDefinition Width="45*" />
         </Grid.ColumnDefinitions>
+
+        <Grid RowSpacing="5" ColumnSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="#ECFCF4">
+                <Label Text="Start" />
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="2" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="3" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="4" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="5" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="6" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="7" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="8" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="9" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="0" Grid.Column="10" BackgroundColor="#ECFCF4" />
+
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="3" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="4" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="5" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="6" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="7" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="8" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="9" Grid.Column="0" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="0" BackgroundColor="#ECFCF4" />
+
+            <Frame Grid.Row="1" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="2" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="3" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="4" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="5" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="6" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="7" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="8" Grid.Column="10" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="9" Grid.Column="10" BackgroundColor="#ECFCF4" />
+
+            <Frame Grid.Row="10" Grid.Column="1" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="2" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="3" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="4" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="5" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="6" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="7" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="8" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="9" BackgroundColor="#ECFCF4" />
+            <Frame Grid.Row="10" Grid.Column="10" BackgroundColor="#ECFCF4" />
+
+            <Frame Grid.Row="1" Grid.Column="1" Grid.RowSpan="9" Grid.ColumnSpan="9" BackgroundColor="#ECFCF4" />
+        </Grid>
+
+        <StackLayout Grid.Column="1">
+            <Label Text="Tu guziczki" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Background="White" Margin="5" Padding="5">
+            <Label Text="Tu beda logi" TextColor="Black" />
+            <Label Text="I może chat" TextColor="Black" />
+        </StackLayout>
     </Grid>
 
 </ContentPage>
